@@ -72,13 +72,3 @@ To run the dashboard:
 
 ```bash
 python app.py
-
----
-
-## Getting Started
-
-1. Clone this repository:
-
-```bash
-git clone https://github.com/ossclaudia/BERTilda.git
-cd BERTilda
