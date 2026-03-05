@@ -53,7 +53,25 @@ Contains:
 Contains:
 
 - Preprocessed tokens (`*_tokens`)  
-- Results from all models applied to these datasets  
+- Results from all models applied to these datasets
+
+---
+
+## Dashboard (`app.py`)
+
+The file `app.py` is a **dashboard** for exploring BERTilda’s temporal topic graphs. It allows users to:
+
+- Inspect **all types of topic relations** (continuations, splits, merges, disappearances, unclear transitions)  
+- **Filter by date or topic** to focus on specific periods or subjects  
+- Analyze **top words of each topic** and how they evolve over time  
+- Explore the **strength of edges** between topics, based on metrics such as semantic similarity and forward/backward document coverage  
+
+The dashboard is interactive and provides a comprehensive view of topic lifecycles and their connections across time windows.  
+
+To run the dashboard:
+
+```bash
+python app.py
 
 ---
 
